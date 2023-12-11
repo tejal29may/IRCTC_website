@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+}
+.log{
+    display: flex;
+}
+.form{
+    width: 336px;
+    height:620px ;
+    /* border: 1px solid red; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.form h1{
+    text-decoration: underline;
+    color:#213D77 ;
+}
+.form img{
+    width: 300px;
+    height: 200px;
+}
+.right .login button a{
+    color: white;
+    text-decoration: none;
+}
+.form input{
+    padding: 10px;
+    width: 320px;
+    margin-left: 5px;
+    margin-top: 9px;
+}
+.form h4{
+    color: #213D77;
+    padding: 10px;
+    margin-left: px;
+    
+}
+.form img{
+    margin-left: 15px;
+}
+.capcha{
+    background: #213d77;
+    font-weight: 700;
+    height: 50px;
+    padding: 5px 7px;
+    margin-left: 15px;
+    width: 300px;
+}
+.capcha p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.otp{
+    display: flex;
+}
+#cap{
+    width: 300px;
+    margin-left: 15px;
+}
+.login button{
+    width: 300px;
+    padding: 10px 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+div.but{
+    display: flex;
+    flex-wrap: wrap;
+}
+#butt{
+    width: 100px;
+    background-color: #213d77;
+
+}
+.but{
+    margin-left: 25px;
+}
